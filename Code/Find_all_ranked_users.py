@@ -35,7 +35,7 @@ for i in node_score["node"]:
 #ARN all ranked user&score
 node_score=pd.read_csv('data/OtherData/ARNrank.csv')
 matrix=pd.read_csv('data/OtherData/1_ARN_matrix_prun.csv')
-f4=open('ARN_user_PRscore.csv','w',newline='')
+f4=open('data/OtherData/ARN_user_PRscore.csv','w',newline='')
 write4=csv.writer(f4)
 header=["UserId","score"]
 write4.writerow(header)
